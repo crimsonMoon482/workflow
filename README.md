@@ -23,4 +23,12 @@ This automation transforms basic input text into:
 
 # 🏗 Workflow Architecture
 
-![workflow screenshot] (C:\workflow\workflowscreenshot.png)
+Webhook (POST /text-to-image)
+↓
+Edit Fields (Extract Text)
+↓
+AI Agent (Claude – Cinematic Prompt Engineering)
+↓
+Code Node (Safe JSON Parse + Full Prompt Builder)
+↓
+HuggingFace Image Generation (PNG Output)
